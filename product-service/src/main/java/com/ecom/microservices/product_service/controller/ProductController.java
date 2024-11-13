@@ -2,7 +2,6 @@ package com.ecom.microservices.product_service.controller;
 
 import com.ecom.microservices.product_service.dto.ProductRequest;
 import com.ecom.microservices.product_service.dto.ProductResponse;
-import com.ecom.microservices.product_service.model.Product;
 import com.ecom.microservices.product_service.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
