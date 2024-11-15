@@ -6,13 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.5</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from com.ecom.microservices.inventory_service.repository -->
 	</parent>
 	<groupId>com.ecom.microservices</groupId>
 	<artifactId>inventory-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>inventory-service</name>
-	<description>Inventory service</description>
+	<name>inventory-com.ecom.microservices.inventory_service.service</name>
+	<description>Inventory com.ecom.microservices.inventory_service.service</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -76,6 +76,11 @@
 			<groupId>org.testcontainers</groupId>
 			<artifactId>mysql</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>5.4.0</version>
 		</dependency>
 	</dependencies>
 
