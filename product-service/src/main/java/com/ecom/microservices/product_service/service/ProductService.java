@@ -28,7 +28,8 @@ public class ProductService {
                 product.getId(),
                 product.getName(),
                 product.getDescription(),
-                product.getPrice());
+                product.getPrice(),
+                product.getName());
     }
 
     public List<ProductResponse> getAllProducts() {
@@ -38,7 +39,8 @@ public class ProductService {
                         product.getId(),
                         product.getName(),
                         product.getDescription(),
-                        product.getPrice()
+                        product.getPrice(),
+                        product.getName()
                 )).toList();
     }
 }
